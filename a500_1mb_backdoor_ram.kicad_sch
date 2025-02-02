@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "A500 1MB Backdoor Chip Memory")
-		(date "2025-01-12")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "2.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x28_Odd_Even"
@@ -3031,16 +3031,16 @@
 		(uuid "19244b8f-a30d-4aa7-89d2-31d4593ea3bc")
 	)
 	(junction
+		(at 147.32 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cad13a1-93d3-4e27-840f-e692f648aa4b")
+	)
+	(junction
 		(at 133.35 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "325fbda8-9313-4f13-bf15-6bc49bb4bbf0")
-	)
-	(junction
-		(at 41.91 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "589d2755-2c04-4d55-9144-dceb391b6fbc")
 	)
 	(junction
 		(at 57.15 48.26)
@@ -3053,6 +3053,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dfa3b66-a417-4383-86a9-02882f628f9d")
+	)
+	(junction
+		(at 147.32 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d55b67-e689-4b0f-a236-9281ee1cf1ff")
+	)
+	(junction
+		(at 162.56 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d3646d-e085-4142-9e9d-b1c503e04903")
 	)
 	(junction
 		(at 95.25 86.36)
@@ -3073,10 +3085,22 @@
 		(uuid "c928aa78-a073-483d-ac2b-10e5e1963dcd")
 	)
 	(junction
+		(at 57.15 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d606a8-f70b-46f6-bdf9-40b8a8e28d06")
+	)
+	(junction
 		(at 69.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa5e94ac-80c5-4c1a-8daf-7a317d6fd5bc")
+	)
+	(junction
+		(at 162.56 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff609807-427e-4ad1-9236-1747f6779afb")
 	)
 	(bus_entry
 		(at 234.95 86.36)
@@ -3895,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 149.86) (xy 175.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f29560-4501-44ab-abe6-05d987e86e76")
+	)
+	(wire
+		(pts
 			(xy 133.35 146.05) (xy 133.35 149.86)
 		)
 		(stroke
@@ -4225,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 134.62) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412c79b8-6d85-4914-ad69-b6fac34425cf")
+	)
+	(wire
+		(pts
 			(xy 229.87 53.34) (xy 232.41 53.34)
 		)
 		(stroke
@@ -4435,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 149.86) (xy 175.26 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55366f4d-5b08-4d2a-a0b1-bcfa146a9dc4")
+	)
+	(wire
+		(pts
 			(xy 229.87 68.58) (xy 232.41 68.58)
 		)
 		(stroke
@@ -4452,6 +4506,16 @@
 			(type default)
 		)
 		(uuid "59f11465-5d6d-47cc-b1cf-b396e3215a39")
+	)
+	(wire
+		(pts
+			(xy 162.56 149.86) (xy 162.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a02c9a0-e993-46cb-9508-56fb2a13b3b7")
 	)
 	(wire
 		(pts
@@ -4715,6 +4779,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 134.62) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78378f46-c290-44bc-9a02-d6a47d108ec8")
+	)
+	(wire
+		(pts
 			(xy 95.25 114.3) (xy 69.85 114.3)
 		)
 		(stroke
@@ -4873,6 +4947,16 @@
 		)
 		(uuid "8d8cf0f8-70fe-4091-bfb9-8358e1b8f023")
 	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4e520b-b901-4c49-909a-7f0dcb777b9a")
+	)
 	(bus
 		(pts
 			(xy 48.26 34.29) (xy 48.26 50.8)
@@ -4925,6 +5009,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 73.66) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97399fb1-d99a-4a53-b113-fc0ec345ba63")
+	)
+	(wire
+		(pts
 			(xy 137.16 66.04) (xy 139.7 66.04)
 		)
 		(stroke
@@ -4942,16 +5036,6 @@
 			(type default)
 		)
 		(uuid "9816195c-410c-421f-86b0-c56b57355116")
-	)
-	(wire
-		(pts
-			(xy 41.91 48.26) (xy 41.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9993ad11-55ee-4db9-8d04-2e292f5088c6")
 	)
 	(bus
 		(pts
@@ -5072,6 +5156,16 @@
 			(type default)
 		)
 		(uuid "a28fe4a9-e766-46f5-8f39-77203b493151")
+	)
+	(wire
+		(pts
+			(xy 147.32 149.86) (xy 162.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3118214-a98c-4000-8e59-875b5c1508bc")
 	)
 	(bus
 		(pts
@@ -5365,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 73.66) (xy 57.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d0fa45-da3a-4c61-8d15-04c3c0b3a071")
+	)
+	(wire
+		(pts
 			(xy 229.87 83.82) (xy 232.41 83.82)
 		)
 		(stroke
@@ -5382,6 +5486,16 @@
 			(type default)
 		)
 		(uuid "c64dfb8f-e128-4c01-9642-b6c6f9e14d29")
+	)
+	(wire
+		(pts
+			(xy 162.56 134.62) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c660e545-e070-48e0-b7f6-22e42f4e96d0")
 	)
 	(wire
 		(pts
@@ -5455,16 +5569,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 73.66) (xy 57.15 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13d35ba-e018-44d1-bf23-5ce6c560fcc9")
-	)
-	(wire
-		(pts
 			(xy 199.39 71.12) (xy 201.93 71.12)
 		)
 		(stroke
@@ -5472,6 +5576,16 @@
 			(type default)
 		)
 		(uuid "d2d45a50-59c4-4ff5-ba9c-938c31daf77f")
+	)
+	(wire
+		(pts
+			(xy 175.26 134.62) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3163613-b5b0-43b0-8f47-474715cfb082")
 	)
 	(wire
 		(pts
@@ -8391,6 +8505,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 162.56 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab196bb9-7218-4a25-8841-b0604d7272ce")
+		(property "Reference" "C3"
+			(at 166.37 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 166.37 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 163.5252 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d70fb7-a56e-4f62-a3df-caad644f82a5")
+		)
+		(pin "2"
+			(uuid "e82a1044-2fca-48b0-8573-4aa693ee14c8")
+		)
+		(instances
+			(project "a500_1mb_backdoor_ram"
+				(path "/82ad923d-669f-44d1-b0fd-acd1ce403756"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 78.74 0)
 		(unit 1)
@@ -8946,6 +9130,76 @@
 			(project "a500_1mb_backdoor_ram"
 				(path "/82ad923d-669f-44d1-b0fd-acd1ce403756"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3a7d4a2-4ee4-456a-bbda-70e74fd79fc0")
+		(property "Reference" "C4"
+			(at 179.07 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 179.07 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.2252 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279a0032-45f0-48ec-8a64-741d90b1a9da")
+		)
+		(pin "2"
+			(uuid "ad0fc71c-e7c8-4cbf-926e-968e58897d49")
+		)
+		(instances
+			(project "a500_1mb_backdoor_ram"
+				(path "/82ad923d-669f-44d1-b0fd-acd1ce403756"
+					(reference "C4")
 					(unit 1)
 				)
 			)
